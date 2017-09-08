@@ -7,6 +7,7 @@ The Magento 2 PrivacyAuth adds customer privacy authorization request in:
 
 ## Installation guide
 ```bash
+$ composer config repositories.magento2-privacy-auth git git@github.com:magma/magento2-privacy-auth.git 
 $ composer require magma/magento2-privacy-auth
 $ php bin/magento cache:disable
 $ php bin/magento module:enable Magma_PrivacyAuth
