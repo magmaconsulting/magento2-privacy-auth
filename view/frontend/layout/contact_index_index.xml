@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * contact_index_index.xml
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<body>
+		<referenceContainer name="content">
+			<referenceBlock name="form.additional.info">
+				<block class="Magma\PrivacyAuth\Block\Included" name="contact_index_index_privacy_included" template="Magma_PrivacyAuth::included.phtml" />
+			</referenceBlock>
+		</referenceContainer>
+	</body>
+</page>
